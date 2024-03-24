@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size:  100;
+    color: white;
+}
+nav h1{
+    font-size: 50px;
+}
+ul button{
+    width: 100px;
+    height: 36px;
+    background-color: rgb(244,11,11);
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+u1 li a:hover{
+    border-bottom: 3px solid rgb(14,14,214); 
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 25px;
+}
+.text{
+    margin-left: 6%;
+    margin-top: 120px;
+}
+.text h1{
+    font-size: 100px;
+}
+.text p{
+    font-size: 27px;
+    margin-top: 20px;
+}
+.text button{
+    width: 170px;
+    height: 44px;
+    background-color: rgb(244,11,11);
+    font-size: 100px;
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+    border: none;
+}
+.text button:hover{
+    border: 3px solid white;
+    background-color: rgb(244,11,11);
+    content: pointer;
+}
